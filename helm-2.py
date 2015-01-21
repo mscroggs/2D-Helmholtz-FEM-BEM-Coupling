@@ -12,5 +12,5 @@ def f(x):
 
 dom=boundary.Domain([0,20])
 
-solve.helmholtz(10,f,dom,k,fix="AUTO")
+solve.helmholtz(8,f,dom,k,fix="AUTO")
 

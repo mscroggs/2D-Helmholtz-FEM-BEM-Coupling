@@ -48,4 +48,4 @@ def f(x):
     return -x
 
 #inputs here are (number of FEM nodes,f,domain,k,actual solution)
-solve.helmholtz(8,f,dom,k,actual,fix="AUTO")
+solve.helmholtz(8,f,dom,k,actual)
